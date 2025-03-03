@@ -8,10 +8,10 @@
 
 // string num1str = Console.Readline(); // получаем строковые данные от пользователя
 // int num = Convert.ToInt32(num1str); // конвертируем строковые данные в число
-
+Console.Write("Введите первое число: ");
 int num1 = Convert.ToInt32(Console.ReadLine()); //получение строковых данных и конвертация их в число 
 //                                              можно записать кодом в одну строку
-
+Console.Write("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 if (num1 == num2 * num2)
 {
