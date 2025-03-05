@@ -8,7 +8,7 @@
 Console.Write("Введите трехзначное целое число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int sum = num / 100 + num % 10;
-if (num > 0)
+if (num >= 100 && num <= 999)
 {
     // Console.Write(sum);
     Console.Write($"Сумма первой и последней цифр = {sum}");
@@ -16,4 +16,4 @@ if (num > 0)
 else
 {
     Console.Write("Ошибка ввода!");
-}  
+}
