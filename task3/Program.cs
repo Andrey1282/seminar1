@@ -15,4 +15,4 @@ if (num > 0)
 else
 {
     Console.Write("Ошибка ввода!");
-}
+}  
