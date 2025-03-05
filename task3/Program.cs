@@ -10,7 +10,8 @@ int num = Convert.ToInt32(Console.ReadLine());
 int sum = num / 100 + num % 10;
 if (num > 0)
 {
-    Console.Write(sum);
+    // Console.Write(sum);
+    Console.Write($"Сумма первой и последней цифр = {sum}");
 }
 else
 {
