@@ -11,5 +11,5 @@ int count = -num;
 while (count <= num)
     {
         Console.Write(count + " ");
-        count++;
+        count++; // count = count + 1; // count += 1;
     }
