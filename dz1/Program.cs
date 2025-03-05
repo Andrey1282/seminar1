@@ -2,11 +2,11 @@
 public class Answer {
 static void CheckDivisibility(int firstNumber, int secondNumber)
 {
-    Console.Write("Введите целое число: ");
+    Console.Write("Введите первое целое число: ");
     int num1 = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Введите целое число: ");
+    Console.Write("Введите второе целое число: ");
     int num2 = Convert.ToInt32(Console.ReadLine());
-    int result=num1%num2
+    int result=num1%num2;
         if (result==0)
         {
             Console.WriteLine("делится");
